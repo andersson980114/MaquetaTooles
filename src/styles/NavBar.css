@@ -1,0 +1,83 @@
+.navbar_container{
+    background-color: #fff;
+    height: 6vh; 
+    top: 0;
+    left:0; 
+    display: flex;   
+    padding: 1.2vh;
+    color: #1d2f68;
+    justify-content: space-between;
+}
+
+.optionName{ 
+    display: flex;
+    flex-direction: row;
+}
+.userDataa{
+    width: 35rem; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 0px;
+}
+
+.optionImg{
+    width: 10vh;
+    justify-content: flex-start;
+}
+
+.optionName>span{ 
+    color: #1d2f68;
+    padding-left: 1.4rem;
+    justify-content: flex-end;
+    font-size: 1.5vh;
+}
+.logo_img{
+    padding: 10px 0px 10px 15px;
+    max-width: 100%;
+}
+.profile{
+    width: 2.2rem; 
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.user_img{
+    justify-content: flex-end;
+    margin:  0px 0px 0px 0px;
+    max-width: 100%;
+}
+ 
+.user> h4, p{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -.5rem;
+    display: flex; 
+    justify-content: end;
+    font-size: 17px;
+} 
+.user>p{
+    margin-top: -.3rem;
+}
+
+.notification, .search{
+    display: flex;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+ 
+.searchService{
+    border-radius: 5px;
+    border: 0;
+    background-color: #eee;
+    outline: 2px solid #b4b4b4 ;
+    opacity: 0;
+}

@@ -1,0 +1,13 @@
+.App { 
+  color: #1d2f68;
+  background: #fff;  
+  display:flex;
+  flex: 1; 
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 100vh;
+}
+.body_container {
+  flex: 1; 
+   
+} 
